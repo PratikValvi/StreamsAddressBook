@@ -4,6 +4,7 @@ public class Person {
     String mobileno;
     String email;
     String state;
+    String city;
     String address;
     String pincode;
 
@@ -47,6 +48,14 @@ public class Person {
         this.state = state;
     }
 
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
     public String getAddress() {
         return address;
     }
@@ -71,6 +80,7 @@ public class Person {
                 ", mobileno='" + mobileno + '\'' +
                 ", email='" + email + '\'' +
                 ", state='" + state + '\'' +
+                ", city='" + city + '\'' +
                 ", address='" + address + '\'' +
                 ", pincode='" + pincode + '\'' +
                 '}';
